@@ -1,0 +1,17 @@
+azurerm_resource_group-name = "terraform-rg"
+location = "West us"
+azurerm_virtual_network-name = "terraform-vnet"
+address_space = ["10.0.0.0/16"]
+dns_servers = ["10.0.0.4", "10.0.0.5"]
+azurerm_subnet-name = "terraform-snet"
+address_prefixes = ["10.0.1.0/24"]
+azurerm_network_security_group-name = "terraform-nsg"
+security_rule-name = "Allowall"
+priority = "100"
+direction = "Inbound"
+access = "Allow"
+protocol = "*"
+source_port_range = "*"
+destination_port_range = "*"
+source_address_prefix = "*"
+destination_address_prefix = "*"

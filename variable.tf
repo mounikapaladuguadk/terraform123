@@ -1,0 +1,17 @@
+variable "azurerm_resource_group-name" {}
+variable "location" {}
+variable "azurerm_virtual_network-name" {}
+variable "address_space" {}
+variable "dns_servers" {}
+variable "azurerm_subnet-name" {}
+variable "address_prefixes" {}
+variable "azurerm_network_security_group-name" {}
+variable "security_rule-name" {}
+variable "priority" {}
+variable "direction" {}
+variable "access" {}
+variable "protocol" {}
+variable "source_port_range" {}
+variable "destination_port_range" {}
+variable "source_address_prefix" {}
+variable "destination_address_prefix" {}
